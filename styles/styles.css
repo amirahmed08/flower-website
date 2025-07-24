@@ -128,3 +128,36 @@ ul li {
     cursor: pointer;
     font-size: 1rem;
 }
+/* about flower section style */
+.about-flower{
+    display: flex;
+    margin: 6rem 0;
+}
+.about-flower-text{
+    max-width: 100%;
+    margin-left: 4rem;
+}
+.about-flower-name{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    position: relative;
+    width: 300px; /* adjust as needed */
+    height: auto;
+}
+.about-flower-description{
+    font-size: 1.375rem;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 0;
+    margin-bottom: 1rem;
+}   
+.background-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.background-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
