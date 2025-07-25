@@ -17,7 +17,7 @@
 .dark-one{
     color: #252432;
 }
-.dark-two{
+.dark-twe{
     color: #111111;
 }
 .dark-three{
@@ -96,7 +96,7 @@ ul li {
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
 }
-.card-divition{
+.card-division{
     border-radius: 0.25rem;    
     margin: 0.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -226,15 +226,77 @@ ul li {
 }
 .head-para a{
     color: white;
-    font-size: 1rem;
+    font-size: 1.55rem;
+     margin-top: 0rem;
+    margin-bottom: 1rem;
 }
 .head-one{
-    font-size: 1.25rem;
+    font-size: 1.75rem;
     font-weight: 700;
     margin-bottom: 0rem;
 }
 .head-two{
-    font-size: 1.25rem;
+    font-size: 1.75rem;
     font-weight: 700;
-    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+.head-three{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0rem;
+}
+/* input section style */
+.input-section{
+    height: 23rem;
+    text-align: center;
+    background-image: url(../assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-content: center;
+    padding: 4rem;
+}
+input{
+    width: 40rem;
+    height: 3rem;
+    padding: 0 1rem;
+    border: none;
+    font-size: 1rem;
+    margin-right: 0;
+}
+.input-section button{
+    width: 11rem;
+    height: 3rem;
+    background-color: #078b2c;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 0rem;
+}
+.button-header{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: white;
+}
+/* footer style */
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    margin: 5rem 0;
+}
+.footer-logo{
+    max-width: 22.5rem;
+}
+.footer-socials{
+    margin-right: 1.5rem;
+}
+.footer-links li{
+    list-style: none;
+    margin-bottom: 1.625rem;
+}
+.feature-more-links li{
+    list-style: none;
+    margin-bottom: 1.625rem;
 }
