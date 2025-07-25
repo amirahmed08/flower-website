@@ -130,34 +130,111 @@ ul li {
 }
 /* about flower section style */
 .about-flower{
+    max-width: 133.75rem;
+    max-height: 37.3125rem;
     display: flex;
     margin: 6rem 0;
+    align-items: center;
 }
 .about-flower-text{
-    max-width: 100%;
+    width: 100%;
+    height: auto;
     margin-left: 4rem;
+    padding: 2.375rem 0 2.375rem 2.375rem;
 }
 .about-flower-name{
     font-size: 3.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
-    position: relative;
-    width: 300px; /* adjust as needed */
-    height: auto;
 }
 .about-flower-description{
-    font-size: 1.375rem;
+    font-size: 1.3rem;
     color: rgba(0, 0, 0, 0.5);
     margin-top: 0;
     margin-bottom: 1rem;
-}   
-.background-image {
-  width: 100%;
-  height: auto;
-  display: block;
 }
-.background-image {
-  width: 100%;
-  height: auto;
-  display: block;
+.about-flower-image{
+    position: relative;
+    display: inline-block;
+}
+.background-image{
+    display: block;
+}
+.badge{
+    width: 17.875rem;
+    height: 17.875rem;
+    position: absolute;
+    top: -7rem;
+    right: -7rem;
+}
+/* latest section style */
+.latest-title{
+    text-align: center;
+    margin: 6rem auto;
+}
+.latest-text{
+    max-width: 55.5rem;
+    margin: 4rem auto;
+}
+.latest{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.latest-paragraph{
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.bloom{
+    grid-area: bloom-flower;
+    background-image: url(../assets/deal-bloom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    align-content: center;
+    justify-content: center;
+    color: white;
+}
+.ana{
+    grid-area: ana-flower;
+    background-image: url(../assets/deal-ana.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    align-content: center;
+    justify-content: center;
+    color: white;
+}
+.zabo{
+    grid-area: zabo-flower;
+    background-image: url(../assets/deal-zabo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    align-content: center;
+    justify-content: center;
+    color: white;
+}
+.three-types-flowers{
+    display: grid;
+    gap: 2rem;
+    grid-template-areas: 
+    "bloom-flower zabo-flower zabo-flower"
+    "ana-flower   zabo-flower   zabo-flower";
+}
+.head-para a{
+    color: white;
+    font-size: 1rem;
+}
+.head-one{
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0rem;
+}
+.head-two{
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-top: 0rem;
 }
