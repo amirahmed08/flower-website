@@ -10,6 +10,9 @@
   font-variation-settings:
     "wdth" 100;
 } 
+.hide{
+    display: none;
+}
 /* font color */
 .deep-dark{
     color: #000000;
@@ -35,10 +38,10 @@
     justify-content: space-between;
     align-items: center;
 }
-ul {
+nav ul {
     display: flex;
 }
-ul li {
+nav ul li {
     list-style: none;
     margin-right: 2rem;
 }
@@ -108,7 +111,7 @@ ul li {
 }
 .card-name{
     font-size: 1.25rem;
-    font-weight: 600;
+    font-weight: 700;
     margin: 0.5rem 0;
 }
 .card-description{
@@ -130,43 +133,32 @@ ul li {
 }
 /* about flower section style */
 .about-flower{
-    max-width: 133.75rem;
-    max-height: 37.3125rem;
-    display: flex;
-    margin: 6rem 0;
-    align-items: center;
+     display: flex;
 }
-.about-flower-text{
-    width: 100%;
-    height: auto;
-    margin-left: 4rem;
-    padding: 2.375rem 0 2.375rem 2.375rem;
+.about-flower-description{
+    font-size: 1.3rem;
+    line-height: 2rem;
 }
 .about-flower-name{
     font-size: 3.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
 }
-.about-flower-description{
-    font-size: 1.3rem;
-    color: rgba(0, 0, 0, 0.5);
-    margin-top: 0;
-    margin-bottom: 1rem;
-}
-.about-flower-image{
+.first-image{
     position: relative;
-    display: inline-block;
 }
-.background-image{
-    display: block;
-}
-.badge{
-    width: 17.875rem;
-    height: 17.875rem;
+.second-image{
     position: absolute;
-    top: -7rem;
-    right: -7rem;
+    width: 250px;
+    height: 250px;
+    left: 560px;
+    bottom: -1150px;
 }
+.about-flower-text{
+    max-width: 55.5rem;
+    margin: 4rem 5rem;
+}
+
 /* latest section style */
 .latest-title{
     text-align: center;
@@ -299,4 +291,89 @@ input{
 .feature-more-links li{
     list-style: none;
     margin-bottom: 1.625rem;
+}
+@media screen and (max-width: 570px) {
+    .body-style{
+        padding: 0rem 0.75rem;
+    }
+    .first-image{
+        width: 100%;
+        height: auto;
+    }
+    .nav-bar{
+        justify-items: space-between;
+    }
+    .header-image{
+        width: 100%;
+        height: auto;
+    }
+    .background-image{
+        width: 100%;
+        height: auto;
+    }
+    .one {
+        display: none;
+    }
+    .header-part{
+        flex-direction: column-reverse;
+    }
+    .header-image-container{
+        width: 100%;
+        height: auto;
+        margin-bottom: 2rem;
+    }
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+}
+.about-flower{
+    flex-direction: column;
+    align-items: center;
+}
+.three-types-flowers{
+    grid-template-areas:
+    "bloom-flower "
+    "ana-flower "
+    "zabo-flower";
+}
+.footer-content{
+    flex-direction: column;
+}
+.latest-title{
+    background-image: 100%;
+}
+.input-section input{
+    width: 218px;
+}
+.heading{
+    font-size: 2.5rem;
+    line-height: 2.125rem;
+}
+.heading-description{
+    font-size: 1.125rem;
+    margin-top: 0.5rem;
+}
+.button-header{
+    font-size: 1.20rem;
+    font-weight: 700;
+}
+.about-flower-name{
+    width: 100%;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.about-flower-description{
+    width: 100%;
+}
+.head-three{
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 0rem;
+}
+.latest{
+    font-size: 1.75rem;
+}
+
 }
